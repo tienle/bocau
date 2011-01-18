@@ -1,2 +1,2 @@
-![Alt normal](http://flic.kr/p/9bhi86)
-![Alt completion](http://flic.kr/p/9bkqtJ)
+http://flic.kr/p/9bhi86
+http://flic.kr/p/9bkqtJ
