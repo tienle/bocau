@@ -122,7 +122,7 @@ highlight LineNr        guifg=#808080 ctermfg=White
 call s:hibg("LineNr"    ,"#101010","DarkBlue",80)
 highlight Question      none
 high link Question      MoreMsg
-highlight Title         guifg=Magenta ctermfg=Magenta
+highlight Title         guifg=White ctermfg=Magenta
 highlight VisualNOS     gui=none cterm=none
 call s:hibg("Visual"    ,"#444444","LightBlue",83)
 call s:hibg("VisualNOS" ,"#222222","DarkBlue",81)
@@ -145,8 +145,8 @@ highlight DiffDelete    ctermfg=12 ctermbg=6 gui=bold guifg=Blue guibg=DarkCyan
 highlight DiffText      ctermbg=DarkRed
 highlight DiffText      cterm=bold ctermbg=9 gui=bold guibg=Red
 
-highlight Pmenu         guifg=White ctermfg=White gui=bold cterm=bold
-highlight PmenuSel      guifg=White ctermfg=White gui=bold cterm=bold
+highlight Pmenu         guifg=White ctermfg=White
+highlight PmenuSel      guifg=White ctermfg=White
 call s:hibg("Pmenu"     ,"#000099","Blue",18)
 call s:hibg("PmenuSel"  ,"#5555ff","DarkCyan",39)
 highlight PmenuSbar     guibg=Grey ctermbg=Grey
@@ -175,11 +175,11 @@ call s:hifg("Comment"        ,"#aaaaaa","Grey",34) " 92
 call s:hifg("Constant"       ,"#AAAA77","DarkCyan",21) " 30
 call s:hifg("rubyNumber"     ,"#CCFF33","Yellow",60) " 190
 call s:hifg("String"         ,"#b1d631","LightGreen",44,82) " 82
-call s:hifg("Identifier"     ,"#FFCC00","Yellow",72) " 220
-call s:hifg("Statement"      ,"#ff6600","Brown",68) " 202
+call s:hifg("Identifier"     ,"#33CCFF","Yellow",72) " 220
+call s:hifg("Statement"      ,"#ff7700","Brown",68) " 202
 call s:hifg("PreProc"        ,"#AAFFFF","LightCyan",47) " 213
 call s:hifg("railsUserMethod","#AACCFF","LightCyan",27)
-call s:hifg("Type"           ,"#ff6600","Grey",57) " 101
+call s:hifg("Type"           ,"#ffaa00","Grey",57) " 101
 call s:hifg("railsUserClass" ,"#AAAAAA","Grey",7) " 101
 call s:hifg("Special"        ,"#33AA00","DarkGreen",24) " 7
 call s:hifg("Regexp"         ,"#44B4CC","DarkCyan",21) " 74
