@@ -3,9 +3,7 @@
 " Last Change:	Dec 17 2010
 " Based on the Vividchalk theme of Tim Pope and Mustang theme
 
-if has("gui_running")
-    set background=dark
-endif
+set background=dark
 hi clear
 if exists("syntax_on")
    syntax reset
@@ -99,9 +97,9 @@ endif
 highlight StatusLine    guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White  cterm=bold
 highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey   cterm=none
 "if &t_Co == 256
-    "highlight StatusLine ctermbg=117
+"  highlight StatusLine ctermbg=117
 "else
-    "highlight StatusLine ctermbg=43
+"  highlight StatusLine ctermbg=43
 "endif
 
 highlight Ignore        ctermfg=Black
@@ -119,7 +117,7 @@ call s:hibg("Search"    ,"Yellow","DarkBlue",81)
 highlight IncSearch     guifg=White guibg=Black ctermfg=White ctermbg=Black
 highlight MoreMsg       guifg=#00AA00 ctermfg=Green
 highlight LineNr        guifg=#808080 ctermfg=White
-call s:hibg("LineNr"    ,"#101010","DarkBlue",80)
+call s:hibg("LineNr"    ,"#101010","DarkBlue",8)
 highlight Question      none
 high link Question      MoreMsg
 highlight Title         guifg=White ctermfg=Magenta
@@ -170,11 +168,11 @@ endif
 hi Identifier cterm=none
 " Commented numbers at the end are *old* 256 color values
 "highlight PreProc       guifg=#EDF8F9
-call s:hifg("Comment"        ,"#aaaaaa","Grey",34) " 92
+call s:hifg("Comment"        ,"#aaaaaa","Grey",8) " 92
 " 26 instead?
-call s:hifg("Constant"       ,"#AAAA77","DarkCyan",21) " 30
+call s:hifg("Constant"       ,"#AAAA77","DarkCyan",27) " 30
 call s:hifg("rubyNumber"     ,"#CCFF33","Yellow",60) " 190
-call s:hifg("String"         ,"#b1d631","LightGreen",44,82) " 82
+call s:hifg("String"         ,"#b1d631","LightGreen",44,40) " 82
 call s:hifg("Identifier"     ,"#33CCFF","Yellow",72) " 220
 call s:hifg("Statement"      ,"#ff7700","Brown",68) " 202
 call s:hifg("PreProc"        ,"#AAFFFF","LightCyan",47) " 213
